@@ -97,7 +97,7 @@ function Signup() {
                 </a>
               </label>
             </section>
-            <button className="px-4 py-2 bg-[#0B056D] w-full rounded-md text-white">
+            <button className="px-4 py-2 shadow-md shadow-[#344BFD] bg-[#0B056D] w-full rounded-md text-white">
               Create an account
             </button>
             <div className="flex items-center my-4 px-3">
@@ -106,7 +106,7 @@ function Signup() {
               <hr className="flex-grow border-t border-gray-300" />
             </div>
             <Link to="/login">
-            <button className="px-4 mt-2 py-2 border border-black w-full rounded-md text-black">
+            <button className="px-4 mt-3 py-2 border border-black w-full rounded-md text-black">
               Sign In
             </button>
             </Link>

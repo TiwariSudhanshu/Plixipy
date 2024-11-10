@@ -52,7 +52,7 @@ function Login() {
           <section className="flex items-center justify-end">
             <a href="" className='text-center'>Forgot Password?</a>
           </section>
-          <button className="px-4 py-2 bg-[#0B056D] w-full rounded-md text-white">Create an account</button>
+          <button className="px-4 py-2 bg-[#0B056D] shadow-md shadow-[#344BFD] w-full rounded-md text-white">Create an account</button>
           <div className="flex items-center my-4 px-3">
               <hr className="flex-grow border-t border-gray-300" />
               <span className="mx-2 text-gray-500">OR</span>
