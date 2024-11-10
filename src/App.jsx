@@ -1,3 +1,4 @@
+import BrandPage from "./pages/BrandPage";
 import Home from "./pages/home";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
@@ -11,6 +12,7 @@ function App() {
       <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Home />} />
+      <Route path="/brand" element={<BrandPage />} />
       <Route path="/register" element={<Signup />} />
       </Routes>
       </Router>
